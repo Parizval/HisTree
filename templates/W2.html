@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="crypto, mining, animation, example, examples">
+    <meta name="author" content="Creativegigs">
+    <meta name="description" content="cryto is a beautiful website template designed for bitcoin crypto currency mining and exchange websites.">
+    <meta name="og:image" content="/static/images/home/ogg.png">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WW2</title>
+
+    <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/icon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/color-one.css">
+    <style>
+        .Quiz {
+            margin-top: 2%;
+            text-align: center;
+        }
+        
+        .logo {
+            display: inline-block;
+        }
+        
+        .Hint {
+            margin-top: 3%;
+        }
+        
+        .Question {
+            margin-top: 3%;
+            padding: 0 2% 0 2%;
+        }
+        
+        .Chapter {
+            text-align: center;
+        }
+        
+        #Options {
+            margin-top: 2%;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .center {
+            margin: 2% auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-page-wrapper">
+
+
+        <!-- ********************** Loading Transition ************************ -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+
+        <div class="html-top-content">
+            <!-- ********************** Theme Top Banne & Header ************************ -->
+            <div class="theme-top-section">
+                <!-- ^^^^^^^^^^^^^^^^^ Theme Menu ^^^^^^^^^^^^^^^ -->
+                <header style="margin-top:3%">
+                    <div class="container">
+                        <div class="menu-wrapper clearfix">
+                            <div class="logo">
+                                <a href="/"><img src="/static/images/logo/logo.png" alt="Logo"></a>
+                            </div>
+
+                            <div class="logo" style="float:right;">
+                                <img src="/static/images/icon/ww1.png" alt="WWI">
+                            </div>
+
+                            <!-- /.right-widget -->
+
+                        </div>
+                        <!-- /.menu-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </header>
+                <!-- /.theme-main-menu -->
+
+                <!-- 
+===========================================================================
+Quiz
+===================================================================
+
+ -->
+
+                <div class="Quiz">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 Chapter">
+                                <h2>Game of Alliances</h2>
+                            </div>
+                        </div>
+                        <div class="row Hint">
+                            <div class="col-md-12 alert alert-primary">
+                                asdasd
+                            </div>
+                        </div>
+                        <div class="row Question">
+                            <div class="col-md-2">
+
+                            </div>
+                            <div>
+                                <h3>Italy has always been at odds with France. Would you like to consider an alliance with them?</h3>
+                            </div>
+                        </div>
+                        <form method="POST" action="#">
+                            <div class="container-fluid" id="Options">
+                                <div class="row">
+
+                                    <div class="col-md-4 center">
+
+                                        <div class="alert alert-success">
+                                            <button type="submit" class=" btn btn-outline-success" id="btn_1">
+                                                Yes </button>
+                                            <p>Extra ContentExtra ContentExtra ContentExtra ContentExtra ContentExtra ContentExtra Content</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 center">
+
+                                        <div class="alert alert-danger">
+                                            <button type="submit" class=" btn btn-outline-danger" id="btn_2">
+                                                No
+                                            </button>
+                                            <p>
+                                                Extra ContentExtra ContentExtra ContentExtra ContentExtra ContentExtra ContentExtra Content
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- /.main-page-wrapper -->
+        </div>
+    </div>
+    <!-- Js File_________________________________ -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="/static/vendor/jquery.2.2.3.min.js"></script>
+    <!-- Popper js -->
+    <script src="/static/vendor/popper.js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Vendor js _________ -->
+    <!-- Plugin JavaScript -->
+    <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Language Stitcher -->
+    <script src="/static/vendor/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <!-- js count to -->
+    <script src="/static/vendor/jquery.appear.js"></script>
+    <script src="/static/vendor/jquery.countTo.js"></script>
+    <!-- Fancybox -->
+    <script src="/static/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <!-- owl Carousel -->
+    <script src="/static/vendor/owl-carousel/owl.carousel.min.js"></script>
+    <!-- AOS js -->
+    <script src="/static/vendor/aos-next/dist/aos.js"></script>
+
+
+
+    <!-- Theme js -->
+    <script src="/static/js/theme.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+
+            $("#btn_1").click(function(e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "/act",
+                    data: "ghkjh",
+                });
+            });
+
+            $("#btn_2").click(function(e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "/act",
+                    data: "hkjh",
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

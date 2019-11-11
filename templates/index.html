@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="crypto, mining, animation, example, examples">
+    <meta name="author" content="Creativegigs">
+    <meta name="description" content="cryto is a beautiful website template designed for bitcoin crypto currency mining and exchange websites.">
+    <meta name="og:image" content="/static/images/home/ogg.png">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HiSTREE</title>
+
+    <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/icon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/color-one.css">
+</head>
+
+<body>
+    <div class="main-page-wrapper">
+
+
+        <!-- ********************** Loading Transition ************************ -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+
+        <div class="html-top-content">
+            <!-- ********************** Theme Top Banne & Header ************************ -->
+            <div class="theme-top-section">
+                <!-- ^^^^^^^^^^^^^^^^^ Theme Menu ^^^^^^^^^^^^^^^ -->
+                <header class="theme-main-menu">
+                    <div class="container">
+                        <div class="menu-wrapper clearfix">
+                            <div class="logo">
+                                <a href="index.html"><img src="/static/images/logo/logo.png" alt="Logo"></a>
+                            </div>
+
+                            <ul class="right-widget celarfix">
+
+                                <li class="login-button">
+                                    {% if check == True %}
+                                    <a href="/out">Log Out <i class="flaticon-right-thin"></i></a> {% else %}
+                                    <a href="/login">Login <i class="flaticon-right-thin"></i></a> {% endif %}
+                                </li>
+                            </ul>
+                            <!-- /.right-widget -->
+
+
+                            <!-- Navigation -->
+                            <nav class="navbar navbar-expand-lg" id="mega-menu-holder">
+                                <div class="container">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							    		  <i class="fa fa-bars" aria-hidden="true"></i>
+							    		</button>
+                                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link js-scroll-trigger" href="#features">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link js-scroll-trigger" href="#services">Products</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- /.menu-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </header>
+                <!-- /.theme-main-menu -->
+
+
+
+                <!-- ^^^^^^^^^^^^^^^^^ Theme Banner ^^^^^^^^^^^^^^^ -->
+                <div id="theme-banner" class="theme-banner-one">
+                    <img src="images/home/k.png" alt="" class="illustration">
+
+                    <div class="container">
+                        <div class="main-text-wrapper">
+                            <h1>Learn. Play.<br>Remember.</h1>
+                            <p>A revolutionary platform designed to turn even the most boring<br> history lesson into something exciting and engaging.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- </div> /.theme-banner-one -->
+            </div>
+            <!-- /.theme-top-section -->
+
+
+
+
+            <!--
+				=====================================================
+					Our Feature
+				=====================================================
+				-->
+            <div class="our-features-one" id="features">
+                <div class="container">
+                    <div class="theme-title">
+                        <h2>What sets HiSTREE apart?</h2>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="single-feature">
+                                <div class="icon-box">
+                                    <img src="/static/images/icon/5.png" alt="" class="primary-icon">
+                                </div>
+                                <h3>Decision Based Gaming</h3>
+                                <p>Allows users to explore alternate realities.</p>
+                            </div>
+                            <!-- /.single-feature -->
+                        </div>
+                        <!-- /.col- -->
+                        <div class="col-md-4 col-xs-12">
+                            <div class="single-feature border-fix">
+                                <div class="icon-box">
+                                    <img src="/static/images/icon/6.png" alt="" class="primary-icon">
+                                </div>
+                                <h3>User Engagement</h3>
+                                <p>A new engaging platform designed to turn even the most boring history lesson into something exciting and engaging.</p>
+                            </div>
+                            <!-- /.single-feature -->
+                        </div>
+                        <!-- /.col- -->
+                        <div class="col-md-4 col-xs-12">
+                            <div class="single-feature">
+                                <div class="icon-box">
+                                    <img src="/static/images/icon/7.png" alt="" class="primary-icon">
+                                </div>
+                                <h3>Customizable</h3>
+                                <p>Build your own custom learning game, designed to fit your curriculum</p>
+                            </div>
+                            <!-- /.single-feature -->
+                        </div>
+                        <!-- /.col- -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <div class="our-feature-two" id="services">
+                <div class="container">
+                    <div class="row single-block">
+                        <div class="col-lg-6">
+                            <div class="text">
+                                <div class="number">01</div>
+                                <h2 class="title"><span>World War I</span></h2>
+                                <p>Understand and remember the key events and decisions that began and ended World War I.</p>
+                                <a href="/play-ww1" class="learn-more">Play Game <i class="flaticon-right-thin"></i></a>
+                            </div>
+                            <!-- /.text -->
+                        </div>
+                        <!-- /.col- -->
+                        <div class="col-lg-6 img-box">
+                            <div><img src="images/shape/1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+
+                    <div class="row single-block">
+                        <div class="col-lg-6 order-lg-last">
+                            <div class="text">
+                                <div class="number">02</div>
+                                <h2 class="title"><span>Custom</span></h2>
+                                <h3><strong>Create a custom game</strong></h3>
+                                <p>Educators can create personalised games based on a specific curriculum for their students. </p>
+                                <a href="/custom" class="learn-more">
+																																	
+																																	
+																																	Login
+																																	
+																																	
+																																	<i class="flaticon-right-thin"></i></a>
+                            </div>
+                            <!-- /.text -->
+                        </div>
+                        <!-- /.col- -->
+                        <div class="col-lg-6 order-lg-first img-box">
+                            <div><img src="images/shape/1.1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+
+                    <div class="row single-block">
+                        <div class="col-lg-6">
+                            <div class="text">
+                                <div class="number">03</div>
+                                <h2 class="title"><span>Custom Games</span></h2>
+                                <h3><strong>Check out custom games</strong></h3>
+                                <p>Find custom games created by your teacher. </p>
+                                <a href="/custom-game" class="learn-more">Login<i class="flaticon-right-thin"></i></a>
+                            </div>
+                            <!-- /.text -->
+                        </div>
+                        <!-- /.col- -->
+                        <div class="col-lg-6 img-box">
+                            <div><img src="/images/shape/2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.our-feature-two -->
+
+
+
+            <!--
+				=====================================================
+					Apps Overview
+				=====================================================
+				-->
+
+
+
+
+
+            <!-- /.html-top-content -->
+
+
+
+            <!-- Scroll Top Button -->
+            <button class="scroll-top tran3s color-one-bg">
+				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+			</button>
+
+        </div>
+
+
+        <!-- Js File_________________________________ -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery -->
+        <script src="/static/vendor/jquery.2.2.3.min.js"></script>
+        <!-- Popper js -->
+        <script src="/static/vendor/popper.js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Vendor js _________ -->
+        <!-- Plugin JavaScript -->
+        <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Language Stitcher -->
+        <script src="/static/vendor/language-switcher/jquery.polyglot.language.switcher.js"></script>
+        <!-- js count to -->
+        <script src="/static/vendor/jquery.appear.js"></script>
+        <script src="/static/vendor/jquery.countTo.js"></script>
+        <!-- Fancybox -->
+        <script src="/static/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- owl Carousel -->
+        <script src="/static/vendor/owl-carousel/owl.carousel.min.js"></script>
+        <!-- AOS js -->
+        <script src="/static/vendor/aos-next/dist/aos.js"></script>
+
+
+
+        <!-- Theme js -->
+        <script src="/static/js/theme.js"></script>
+
+    </div>
+    <!-- /.main-page-wrapper -->
+</body>
+
+</html>
